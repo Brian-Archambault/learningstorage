@@ -66,13 +66,9 @@ function moveMarker(markering, bus) {
 
 
 
-// TODO: add a marker to the map at the first coordinates in the array busStops. The marker variable should be named "marker"
-// counter here represents the index of the current bus stop
-let counter = 0;
+
 function move() {
-  // TODO: move the marker on the map every 1000ms. Use the function marker.setLngLat() to update the marker coordinates
-  // Use counter to access bus stops in the array busStops
-  // Make sure you call move() after you increment the counter.
+  
   addMarkers();
 }
 
